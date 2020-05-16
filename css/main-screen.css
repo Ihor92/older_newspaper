@@ -1,0 +1,203 @@
+.main-screen_wrap {
+  width: var(--page-wrap);
+  padding-top: 40px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  width: 50%;
+  text-align: justify;
+}
+
+/* Left column */
+.left-column_title {
+  font-family: var(--fonts_cafe);
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 73px;
+  margin-bottom: 20px;
+}
+
+.left-column_text {
+  width: 100%;
+  font-size: var(--font-size_text);
+}
+
+.suoer-car_bottom {
+  border-bottom: 4px solid var(--color-black);
+}
+
+.hr_top {
+  height: 6px;
+  background: var(--color-black);
+  margin-top: 30px;
+}
+
+.hr {
+  height: 2px;
+  background: var(--color-black);
+}
+
+.left-column_car {
+  width: 65%;
+  float: left;
+  margin-right: 15px;
+}
+
+.left-column_super-car {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 0;
+  font-weight: bold;
+  font-family: var(--fonts_cafe);
+}
+
+.left-column_title-extra {
+  font-size: 50px;
+}
+
+.left-column_subtitle {
+  font-size: 40px;
+  margin: 5px 0 20px;
+}
+
+.left-column_img-camera {
+  width: 40%;
+  float: right;
+  margin-left: 15px;
+}
+
+.left-column_welcome {
+  padding-bottom: 50px;
+}
+
+.сamera_article {
+  font-size: var(--font-size_text);
+  text-align: justify;
+  color: var(--color-black);
+}
+
+.left-column_welcome-img {
+  width: 60%;
+  float: left;
+  margin-right: 15px;
+}
+
+.left-column_headline {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin: 0;
+  text-align: center;
+  border-top: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--color-black);
+}
+
+.left-column_welcome-text {
+  font-size: var(--font-size_text);
+  color: var(--color-black);
+}
+
+/* Center column */
+.center-column {
+  width: 22%;
+  text-align: justify;
+}
+
+.article_town-hall_title {
+  font-family: var(--fonts_cafe);
+  text-transform: uppercase;
+  font-size: 47px;
+  margin: 0;
+  text-align: center;
+}
+
+.article_town-hall_about {
+  font-size: 28px;
+  margin: 15px 0;
+  padding: 5px 0;
+  border-top: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--color-black);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.article_important-title {
+  background: var(--color-black);
+  border-top: 2px solid var(--color-black);
+  color: var(--color-white);
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.phone-number_title {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  font-family: var(--fonts_cafe);
+}
+
+.phone-number_subtitle {
+  font-size: 25px;
+  text-align: center;
+  font-family: var(--font-averia);
+  margin: 10px 0 0;
+}
+
+.phone-number_info {
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+}
+
+.phone_img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Right column */
+.right-column {
+  width: 22%;
+  text-align: justify;
+}
+
+.typewriter_img {
+  width: 100%;
+}
+
+.typewriter_title {
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--fonts_cafe);
+  text-transform: uppercase;
+}
+
+.typewriter_subtitle {
+  border-top: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--color-black);
+  padding: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-averia);
+  font-size: 25px;
+}
+
+.old-paper_title {
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+  font-family: var(--fonts_cafe);
+  text-transform: uppercase;
+}
+
+.old-paper_subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-averia);
+  font-size: 25px;
+  margin: 10px 0 0;
+}

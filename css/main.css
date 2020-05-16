@@ -1,0 +1,54 @@
+@import "./header.css";
+@import "./main-screen.css";
+@import "./fonts_css/averia_serif-font-zillion.css";
+@import "./fonts_css/dk_courant-font-zillion.css";
+@import "./fonts_css/old_newspaper.css";
+@import "./fonts_css/fonts_cafe.css";
+
+:root {
+  /* color */
+  --color-white: #fff;
+  --color-black: #222;
+
+  /* size */
+  --page-wrap: 90%;
+  --font-size_text: 14px;
+
+  /* fonts */
+  --font-averia: "Averia", sans-serif;
+  --font-dk_courant: "DK_courant", sans-serif;
+  --font-old_newspaper: "Old_newspaper", sans-serif;
+  --fonts_cafe: "Fonts_cafe", serif;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header,
+.main-screen {
+  max-width: 1360px;
+  background: #e9d6ae;
+  margin: 0 auto;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: none;
+  text-align: center;
+}
+
+.popup {
+  width: 70%;
+  height: 70%;
+  margin: 0 auto;
+  margin-top: 15%;
+  background: transparent;
+  display: none;
+}
